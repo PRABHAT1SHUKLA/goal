@@ -31,6 +31,7 @@ func main() {
 
 		if guess < target {
 			fmt.Println("Too low! Try again.")
+			fmt.Println("Yes, you're up for it .")
 		} else if guess > target {
 			fmt.Println("Too high! Try again.")
 		} else {
